@@ -80,9 +80,10 @@ export default function Home() {
         <div className={`wrap ${styles.leadInner}`}>
           <div>
             <span className="eyebrow eyebrow-light">Free download</span>
-            <h2 className={styles.leadTitle}>Get our Top 3 Golden Circle Itineraries</h2>
+            <h2 className={styles.leadTitle}>Get our Free 7-Day Iceland Itinerary</h2>
             <p className={styles.leadSubtitle}>
-              Three ready-made day plans — timing, stops, and what to skip if you&apos;re short on daylight.
+              A day-by-day PDF covering the Golden Circle, the South Coast, glacier hikes, the
+              Blue Lagoon, and the northern lights — delivered straight to your inbox.
             </p>
           </div>
           <EmailCaptureForm
