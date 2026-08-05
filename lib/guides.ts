@@ -8,13 +8,6 @@ export type GuideMeta = {
 // Metadata only — each guide's actual content lives in its page.tsx.
 export const guides: GuideMeta[] = [
   {
-    slug: "golden-circle-itineraries",
-    title: "Top 3 Golden Circle Itineraries",
-    description:
-      "Three ready-made day plans — timing, stops, and what to skip if you're short on daylight.",
-    icon: "🗺️",
-  },
-  {
     slug: "keflavik-airport-to-reykjavik",
     title: "Keflavik Airport to Reykjavik: Every Way to Get There",
     description:
