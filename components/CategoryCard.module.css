@@ -1,0 +1,45 @@
+.tile {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--color-ice);
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.tile:hover .image {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 44, 64, 0) 45%, rgba(10, 44, 64, 0.82) 100%);
+}
+
+.label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #ffffff;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.cta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #cfe6ef;
+}

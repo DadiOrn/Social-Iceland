@@ -1,0 +1,108 @@
+.intro {
+  color: var(--color-ink-muted);
+  max-width: 60ch;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.card {
+  display: block;
+  padding: 24px;
+}
+
+.icon {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.title {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.description {
+  color: var(--color-ink-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.article {
+  max-width: 72ch;
+}
+
+.article h2 {
+  margin-top: 1.6em;
+  font-size: 1.3rem;
+}
+
+.article p {
+  color: var(--color-ink);
+}
+
+.article ul,
+.article ol {
+  margin: 0 0 1em;
+  padding-left: 1.3em;
+  color: var(--color-ink);
+}
+
+.article li {
+  margin-bottom: 0.4em;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0 1.6em;
+  font-size: 0.92rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table th {
+  color: var(--color-ink-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: var(--color-ink-muted);
+  margin-bottom: 16px;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-brand);
+}
+
+.callout {
+  background: #eaf5f0;
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  margin: 1.2em 0;
+  font-size: 0.92rem;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

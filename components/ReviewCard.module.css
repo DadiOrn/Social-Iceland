@@ -1,0 +1,40 @@
+.card {
+  padding: 22px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: var(--color-warm);
+  letter-spacing: 1px;
+}
+
+.quote {
+  color: var(--color-ink);
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.tour {
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+}

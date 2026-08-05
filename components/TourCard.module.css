@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  background: var(--color-ice);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.body {
+  flex: 1;
+  padding: 20px 22px 0;
+}
+
+.name {
+  font-size: 1.08rem;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--color-ink-muted);
+}
+
+.rating {
+  font-weight: 700;
+  color: var(--color-warm);
+}
+
+.reviewCount {
+  font-weight: 500;
+  color: var(--color-ink-muted);
+}
+
+.dot {
+  opacity: 0.5;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 16px 22px 22px;
+  border-top: 1px solid var(--color-border);
+}
+
+.priceLabel {
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+.price {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--color-ink);
+}
