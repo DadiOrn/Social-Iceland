@@ -4,6 +4,7 @@ import "./globals.css";
 import { BRAND_NAME, BRAND_TAGLINE, SITE_URL } from "@/lib/config";
 import Footer from "@/components/Footer";
 import LeadMagnetPopup from "@/components/LeadMagnetPopup";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const sans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -32,6 +33,7 @@ export default function RootLayout({
         <main style={{ flex: 1 }}>{children}</main>
         <Footer />
         <LeadMagnetPopup />
+        <GoogleAnalytics />
       </body>
     </html>
   );
