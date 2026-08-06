@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { BRAND_NAME, BRAND_TAGLINE, SITE_URL } from "@/lib/config";
 import Footer from "@/components/Footer";
+import LeadMagnetPopup from "@/components/LeadMagnetPopup";
 
 const sans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body>
         <main style={{ flex: 1 }}>{children}</main>
         <Footer />
+        <LeadMagnetPopup />
       </body>
     </html>
   );

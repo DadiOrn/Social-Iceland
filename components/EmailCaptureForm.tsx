@@ -9,10 +9,12 @@ export default function EmailCaptureForm({
   source,
   buttonLabel = "Send it to me",
   buttonVariant = "primary",
+  onSuccess,
 }: {
   source: string;
   buttonLabel?: string;
   buttonVariant?: "primary" | "secondary";
+  onSuccess?: () => void;
 }) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
@@ -36,6 +38,7 @@ export default function EmailCaptureForm({
       }
 
       setStatus("success");
+      onSuccess?.();
     } catch (err) {
       setStatus("error");
       setErrorMessage(err instanceof Error ? err.message : "Something went wrong");
