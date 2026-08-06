@@ -28,11 +28,18 @@ export default function ReviewsPage() {
             <Link href="/about">About &amp; Disclosure page</Link> for details on how that works.
           </p>
 
-          <div className={styles.grid}>
-            {reviews.map((review) => (
-              <ReviewCard key={review.id} review={review} />
-            ))}
-          </div>
+          {reviews.length > 0 ? (
+            <div className={styles.grid}>
+              {reviews.map((review) => (
+                <ReviewCard key={review.id} review={review} />
+              ))}
+            </div>
+          ) : (
+            <p className={styles.comingSoon}>
+              We&apos;re recruiting real reviewers now. Check back soon for the first
+              reviews.
+            </p>
+          )}
         </div>
       </div>
     </>

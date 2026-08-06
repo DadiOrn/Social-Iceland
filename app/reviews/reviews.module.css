@@ -15,6 +15,11 @@
   gap: 18px;
 }
 
+.comingSoon {
+  color: var(--color-ink-muted);
+  font-weight: 600;
+}
+
 @media (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);

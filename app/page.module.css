@@ -38,54 +38,6 @@
   gap: 4px;
 }
 
-.testimonial {
-  position: relative;
-  min-height: 460px;
-  display: flex;
-  overflow: hidden;
-}
-
-.testimonialImage {
-  object-fit: cover;
-  z-index: 0;
-}
-
-.testimonialOverlay {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  background: linear-gradient(0deg, rgba(10, 30, 44, 0.8) 0%, rgba(10, 30, 44, 0.15) 55%, rgba(10, 30, 44, 0.1) 100%);
-}
-
-.testimonialContent {
-  position: relative;
-  z-index: 2;
-  align-self: flex-end;
-  padding-bottom: 40px;
-  color: #ffffff;
-}
-
-.testimonialQuote {
-  font-size: clamp(1.3rem, 3vw, 1.9rem);
-  font-weight: 700;
-  max-width: 26ch;
-  margin-bottom: 16px;
-}
-
-.testimonialAttribution {
-  display: flex;
-  flex-direction: column;
-}
-
-.testimonialName {
-  font-weight: 700;
-}
-
-.testimonialTour {
-  font-size: 0.88rem;
-  color: #cfe6ef;
-}
-
 .leadBanner {
   background: var(--color-accent);
   color: #ffffff;

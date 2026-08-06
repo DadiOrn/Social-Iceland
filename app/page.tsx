@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { tourCategories } from "@/lib/tours";
 import CategoryCard from "@/components/CategoryCard";
 import EmailCaptureForm from "@/components/EmailCaptureForm";
@@ -51,27 +50,6 @@ export default function Home() {
             {tourCategories.map((category) => (
               <CategoryCard key={category.slug} category={category} />
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className={styles.testimonial}>
-        <Image
-          src="/images/testimonial-hiker.jpg"
-          alt="A traveler crossing a river below Kirkjufellsfoss waterfall, Iceland"
-          fill
-          sizes="100vw"
-          className={styles.testimonialImage}
-        />
-        <div className={styles.testimonialOverlay} />
-        <div className={`wrap ${styles.testimonialContent}`}>
-          <p className={styles.testimonialQuote}>
-            &ldquo;Having the price and duration right there next to the tour, instead of ten browser
-            tabs, is what actually got me to book.&rdquo;
-          </p>
-          <div className={styles.testimonialAttribution}>
-            <span className={styles.testimonialName}>Example Reviewer</span>
-            <span className={styles.testimonialTour}>Golden Circle Classic Day Tour</span>
           </div>
         </div>
       </section>
