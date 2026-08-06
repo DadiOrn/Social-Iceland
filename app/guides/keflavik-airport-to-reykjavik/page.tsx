@@ -6,7 +6,7 @@ import styles from "../guides.module.css";
 export const metadata: Metadata = {
   title: "Keflavik Airport to Reykjavik: Every Way to Get There",
   description:
-    "Flybus, rental car, taxi, or private transfer from Keflavik International Airport to Reykjavik — timing, cost range, and which one fits your trip.",
+    "Flybus, rental car, taxi, or private transfer from Keflavik International Airport to Reykjavik: timing, cost range, and which one fits your trip.",
 };
 
 export default function Page() {
@@ -27,7 +27,7 @@ export default function Page() {
         <div className={styles.article}>
           <p>
             Keflavik International Airport (KEF) sits about 50 km (30 miles) southwest of
-            Reykjavik — roughly a 45-minute drive on a good road with no traffic. There is no
+            Reykjavik, roughly a 45-minute drive on a good road with no traffic. There is no
             train link in Iceland, so every option below is either a bus, a shared/private
             transfer, or a rental car.
           </p>
@@ -43,7 +43,7 @@ export default function Page() {
           </p>
           <ul>
             <li>Tickets are typically sold as a base fare (BSI drop-off) or a hotel-transfer add-on.</li>
-            <li>Buy in advance online — it&apos;s usually cheaper than buying at the airport counter.</li>
+            <li>Buy in advance online. It&apos;s usually cheaper than buying at the airport counter.</li>
             <li>Luggage is stowed underneath; no need to book a separate bag allowance for standard suitcases.</li>
           </ul>
 
@@ -66,7 +66,7 @@ export default function Page() {
           <p>
             Rental desks are inside and just outside the terminal. Picking up a car at the
             airport means you skip Reykjavik transit entirely and drive straight to your
-            accommodation — see our guide on{" "}
+            accommodation. See our guide on{" "}
             <Link href="/guides/renting-a-car-vs-taking-tours">renting a car vs. taking tours</Link>{" "}
             for whether that&apos;s the right call for your trip.
           </p>
@@ -105,14 +105,14 @@ export default function Page() {
           </table>
 
           <div className={styles.callout}>
-            Fares and schedules change seasonally — always check current times and prices
+            Fares and schedules change seasonally. Always check current times and prices
             directly with the operator before you fly, especially for late-night or early-morning
             flights when shuttle frequency drops.
           </div>
 
           <p>
             Ready to book the rest of your trip? See our{" "}
-            <Link href="/tours/blue-lagoon">Blue Lagoon tours</Link> — several combine airport
+            <Link href="/tours/blue-lagoon">Blue Lagoon tours</Link>: several combine airport
             transfer with a stop at the lagoon so you&apos;re not backtracking.
           </p>
         </div>

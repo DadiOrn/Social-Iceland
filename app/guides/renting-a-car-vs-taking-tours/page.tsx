@@ -26,7 +26,7 @@ export default function Page() {
 
         <div className={styles.article}>
           <p>
-            Neither option is objectively better — it depends on the season, your driving
+            Neither option is objectively better. It depends on the season, your driving
             experience, and how much flexibility you actually want versus how much you&apos;ll
             use.
           </p>
@@ -47,7 +47,7 @@ export default function Page() {
               experienced drivers from milder climates.
             </li>
             <li>
-              The route involves an F-road (Iceland&apos;s marked highland roads) — most rental
+              The route involves an F-road (Iceland&apos;s marked highland roads). Most rental
               insurance won&apos;t cover standard cars on them, and they require a 4x4 and local
               knowledge.
             </li>
@@ -56,7 +56,7 @@ export default function Page() {
               certified guide and specialized gear regardless of how you get there.
             </li>
             <li>You&apos;re traveling solo and would rather split the cost of a shared coach than rent a whole car alone.</li>
-            <li>You&apos;d rather look at the view than the road — especially true for dramatic routes with frequent one-lane bridges and blind curves.</li>
+            <li>You&apos;d rather look at the view than the road, especially true for dramatic routes with frequent one-lane bridges and blind curves.</li>
           </ul>
 
           <h2>Cost, roughly speaking</h2>
@@ -64,7 +64,7 @@ export default function Page() {
             A rental car plus fuel and (recommended) gravel/sand protection insurance often
             costs more per day than people expect, and that&apos;s before parking or the extra
             night you might need if weather slows you down. A day tour bundles transport,
-            a guide, and often gear into one fixed price — usually the better value for a
+            a guide, and often gear into one fixed price, usually the better value for a
             single activity like a glacier hike or the Golden Circle loop, even if it&apos;s less
             flexible on timing.
           </p>
@@ -73,7 +73,7 @@ export default function Page() {
           <p>
             Plenty of visitors do both: rent a car for flexible days around Reykjavik and the
             South Coast, then book a guided tour specifically for activities that need
-            certified guides — like{" "}
+            certified guides, like{" "}
             <Link href="/tours/glacier-hikes">glacier hikes and ice caves</Link>. That way the
             car handles logistics and the tour handles anything that actually requires
             training and gear.
@@ -81,7 +81,7 @@ export default function Page() {
 
           <div className={styles.callout}>
             If you do rent, check your insurance coverage for gravel chips and sand/ash damage
-            specifically — standard collision coverage often excludes both, and they&apos;re the
+            specifically. Standard collision coverage often excludes both, and they&apos;re the
             most common causes of rental damage claims in Iceland.
           </div>
         </div>

@@ -69,10 +69,10 @@ export default function LeadMagnetPopup() {
           ×
         </button>
         <span className="eyebrow">Free download</span>
-        <h2 className={styles.title}>Wait — grab the free itinerary first</h2>
+        <h2 className={styles.title}>Wait, grab the free itinerary first</h2>
         <p className={styles.subtitle}>
           A day-by-day 7-day PDF covering the Golden Circle, the South Coast, glacier
-          hikes, the Blue Lagoon, and the northern lights — sent straight to your inbox.
+          hikes, the Blue Lagoon, and the northern lights, sent straight to your inbox.
         </p>
         <EmailCaptureForm
           source="exit-intent-popup"

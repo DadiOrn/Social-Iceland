@@ -27,7 +27,7 @@ export const tourCategories: TourCategory[] = [
     shortTitle: "Reykjavik Day Tours",
     icon: "🍽️",
     description:
-      "Walking tours, food crawls, and half-day trips that start and end in Reykjavik — no car needed.",
+      "Walking tours, food crawls, and half-day trips that start and end in Reykjavik. No car needed.",
     image: "/images/category-reykjavik.jpg",
     viatorSearchTerm: "Reykjavik food walking tour",
   },

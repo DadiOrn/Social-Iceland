@@ -18,7 +18,7 @@ export default function GuidesIndexPage() {
         imageAlt="Aerial view of Iceland's ring road winding along a fjord"
         eyebrow="Trip planning"
         title="Guides"
-        subtitle="Practical logistics, not personal travel stories — the stuff you need to plan before you land."
+        subtitle="Practical logistics, not personal travel stories: the stuff you need to plan before you land."
       />
       <div className="section">
         <div className="wrap">

@@ -14,11 +14,11 @@ const sans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+    default: `${BRAND_NAME} | ${BRAND_TAGLINE}`,
     template: `%s | ${BRAND_NAME}`,
   },
   description:
-    "Iceland tours organized by what you want to do: Golden Circle, glacier hikes, Reykjavik food tours, the Blue Lagoon, and northern lights trips — with prices, duration, and ratings up front.",
+    "Iceland tours organized by what you want to do: Golden Circle, glacier hikes, Reykjavik food tours, the Blue Lagoon, and northern lights trips, with prices, duration, and ratings up front.",
 };
 
 export default function RootLayout({

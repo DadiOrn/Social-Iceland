@@ -11,7 +11,7 @@ export const guides: GuideMeta[] = [
     slug: "keflavik-airport-to-reykjavik",
     title: "Keflavik Airport to Reykjavik: Every Way to Get There",
     description:
-      "Flybus, rental car, taxi, or private transfer — timing, cost, and which one fits your trip.",
+      "Flybus, rental car, taxi, or private transfer: timing, cost, and which one fits your trip.",
     icon: "✈️",
   },
   {

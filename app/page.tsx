@@ -15,7 +15,7 @@ export default function Home() {
         imageAlt="Icebergs floating in Jökulsárlón glacier lagoon, Iceland"
         eyebrow="Iceland tours, sorted for you"
         title="Find the right Iceland tour, without the 40 open tabs."
-        subtitle="We organize every tour by what you actually want to do — glaciers, waterfalls, food, the Blue Lagoon, the aurora — with price, duration, and rating up front."
+        subtitle="We organize every tour by what you actually want to do (glaciers, waterfalls, food, the Blue Lagoon, the aurora) with price, duration, and rating up front."
         actions={
           <>
             <Link href="/tours" className="btn btn-primary">Browse all tours</Link>
@@ -32,7 +32,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className={styles.featureTitle}>Organized by activity</h3>
-            <p className={styles.featureText}>Golden Circle, glaciers, food, the lagoon, the lights — not one long list.</p>
+            <p className={styles.featureText}>Golden Circle, glaciers, food, the lagoon, the lights, not one long list.</p>
           </div>
           <div>
             <h3 className={styles.featureTitle}>Book directly</h3>
@@ -83,7 +83,7 @@ export default function Home() {
             <h2 className={styles.leadTitle}>Get our Free 7-Day Iceland Itinerary</h2>
             <p className={styles.leadSubtitle}>
               A day-by-day PDF covering the Golden Circle, the South Coast, glacier hikes, the
-              Blue Lagoon, and the northern lights — delivered straight to your inbox.
+              Blue Lagoon, and the northern lights, delivered straight to your inbox.
             </p>
           </div>
           <EmailCaptureForm

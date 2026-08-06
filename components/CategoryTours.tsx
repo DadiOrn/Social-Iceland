@@ -35,7 +35,7 @@ export default async function CategoryTours({ slug }: { slug: string }) {
             </div>
           ) : (
             <p className={styles.breadcrumb}>
-              We couldn&apos;t load live tours for this category right now — please check back shortly.
+              We couldn&apos;t load live tours for this category right now. Please check back shortly.
             </p>
           )}
         </div>

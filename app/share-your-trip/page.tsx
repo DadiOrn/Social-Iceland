@@ -30,21 +30,21 @@ export default function ShareYourTripPage() {
 
           <h2>What we&apos;re looking for</h2>
           <ul>
-            <li>A short, honest written review of a specific tour — what was good, what wasn&apos;t, who it&apos;s a good fit for.</li>
+            <li>A short, honest written review of a specific tour: what was good, what wasn&apos;t, who it&apos;s a good fit for.</li>
             <li>3&ndash;6 of your own photos from the tour (no professional photography required).</li>
             <li>Your first name and the tour name/operator, for the review to display alongside.</li>
           </ul>
 
           <h2>How it works</h2>
           <ul>
-            <li>We pay a flat fee, agreed before you write anything — not based on how positive the review is.</li>
+            <li>We pay a flat fee, agreed before you write anything, not based on how positive the review is.</li>
             <li>We won&apos;t edit your review for sentiment. Constructive criticism is welcome and useful to other travelers.</li>
-            <li>Your review is clearly labeled as an incentivized review when it&apos;s published — see our <Link href="/about">disclosure policy</Link>.</li>
+            <li>Your review is clearly labeled as an incentivized review when it&apos;s published. See our <Link href="/about">disclosure policy</Link>.</li>
           </ul>
 
           <p>
             Interested? Leave your email below and mention the tour you took (or plan to
-            take) — we&apos;ll follow up with details and the payment amount.
+            take), and we&apos;ll follow up with details and the payment amount.
           </p>
 
           <EmailCaptureForm source="share-your-trip" buttonLabel="I'm interested" />

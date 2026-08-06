@@ -23,7 +23,7 @@ export default function ReviewsPage() {
         <div className="wrap">
           <p className={styles.intro}>
             Reviews below come from real travelers we work with directly. Some are compensated
-            for their time writing the review and providing photos — those are marked
+            for their time writing the review and providing photos. Those are marked
             &ldquo;Incentivized review.&rdquo; See our{" "}
             <Link href="/about">About &amp; Disclosure page</Link> for details on how that works.
           </p>

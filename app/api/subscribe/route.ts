@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
   const subscribed = await subscribeToLeadMagnet(email);
   if (!subscribed) {
     return NextResponse.json(
-      { error: "Something went wrong signing you up — please try again shortly." },
+      { error: "Something went wrong signing you up. Please try again shortly." },
       { status: 502 }
     );
   }
